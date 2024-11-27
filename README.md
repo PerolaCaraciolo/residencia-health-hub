@@ -96,7 +96,7 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/PerolaCaraciolo/residencia-health-hub.git
-### 💻🛠️ Pré-requisitos para executar localmente
+### 🛠️💻 Pré-requisitos para executar localmente
 2. **Flutter SDK**: Certifique-se de ter o Flutter instalado na máquina.
 
 3. **Acesse o diretório**:
@@ -108,7 +108,7 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 5. **Execute o projeto**:
    ```bash
    flutter run
-### ☁️🛠️ Rodando no FlutLab
+### 🛠️☁️ Rodando no FlutLab
 
 2. Faça upload do projeto no [FlutLab](https://flutlab.io/).
 3. Clique em "Run Project" para executar o app diretamente no ambiente online.
