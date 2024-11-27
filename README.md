@@ -130,19 +130,19 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 
 ---
 
-## 🌟 Créditos
+## 📝 Observações Adicionais
 
-Desenvolvido por **Pérola Iuly** como parte de um projeto acadêmico para **Faculdade Senac**.  
-Agradecimentos especiais ao instrutor e colaborador Accenture **Júlio Cesar** pela orientação e feedback.
+- Este projeto utiliza imagens e documentos armazenados na pasta `assets/images/`.
+- Os dados apresentados no app (vídeos, registros, cursos) são mockados e podem ser integrados a uma base de dados no futuro.
 
 <br>
 
 ---
 
-## 📝 Observações Adicionais
+## 🌟 Créditos
 
-- Este projeto utiliza imagens e documentos armazenados na pasta `assets/images/`.
-- Os dados apresentados no app (vídeos, registros, cursos) são mockados e podem ser integrados a uma base de dados no futuro.
+Desenvolvido por **Pérola Iuly** como parte de um projeto acadêmico para **Faculdade Senac**.  
+Agradecimentos especiais ao instrutor e colaborador Accenture **Júlio Cesar** pela orientação e feedback.
 
 <br>
 
