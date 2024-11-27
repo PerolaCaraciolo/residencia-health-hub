@@ -142,28 +142,33 @@ Agradecimentos especiais ao instrutor e colaborador Accenture **Júlio Cesar** p
 
 ```plaintext
 lib/
-├── main.dart                           # Arquivo principal do app
-├── login_screen.dart                   # Tela de Login
-├── home_screen.dart                    # Tela Inicial
-├── profile_screen.dart                 # Tela de Perfil
-├── account_settings_screen.dart        # Tela de Configurações
-├── absence_request_screen.dart         # Tela para Solicitar Ausências
-├── absentee_records_screen.dart        # Tela com Registros Faltosos
-├── upload_certificate_screen.dart      # Tela para Enviar Atestados
-├── course_history_screen.dart          # Histórico de Cursos
-├── favorites_screen.dart               # Tela de Favoritos
-├── forgot_password_screen.dart         # Tela de Redefinição de Senha
-├── course_detail_screen.dart           # Tela com Detalhes de um Curso
-├── video_player_screen.dart            # Tela para Visualizar Vídeos
-├── image_viewer_screen.dart            # Tela para Visualizar Imagens
-├── pdf_viewer_screen.dart              # Tela para Visualizar PDFs
-├── components/
-│   ├── announcement_card.dart          # Widget para exibir anúncios
-│   ├── course_card.dart                # Widget para exibir cursos
-│   └── video_thumbnail_card.dart       # Widget para miniaturas de vídeos
+├── main.dart                         # Arquivo principal do app
+├── login_screen.dart                 # Tela de Login
+├── home_screen.dart                  # Tela Inicial
+├── profile_screen.dart               # Tela de Perfil
+├── account_settings_screen.dart      # Tela de Configurações
+├── absence_request_screen.dart       # Tela para Solicitar Ausências
+├── absentee_records_screen.dart      # Tela com Registros Faltosos
+├── upload_certificate_screen.dart    # Tela para Enviar Atestados
+├── course_history_screen.dart        # Histórico de Cursos
+├── favorites_screen.dart             # Tela de Favoritos
+├── forgot_password_screen.dart       # Tela de Redefinição de Senha
+├── course_detail_screen.dart         # Tela com Detalhes de um Curso
+├── video_player_screen.dart          # Tela para Visualizar Vídeos
+├── image_viewer_screen.dart          # Tela para Visualizar Imagens
+├── pdf_viewer_screen.dart            # Tela para Visualizar PDFs
+├── announcement_card.dart            # Widget para exibir anúncios
+├── course_card.dart                  # Widget para exibir cursos
+├── video_thumbnail_card.dart         # Widget para miniaturas de vídeos
 assets/
 ├── images/
-│   ├── logo.png                        # Logo principal
-│   └── accenture-logo.png              # Logo da empresa
-pubspec.yaml                            # Configuração de dependências e assets
-
+│   ├── logo.png                      # Logo principal
+│   └── accenture-logo.png            # Logo da empresa
+web/                                  # Arquivos para suporte a Flutter Web
+android/                              # Configurações da plataforma Android
+ios/                                  # Configurações da plataforma iOS
+test/                                 # Arquivos de teste
+.metadata                             # Metadados do projeto Flutter
+analysis_options.yaml                 # Configurações de lint e boas práticas
+LICENSE                               # Licença do projeto
+pubspec.yaml                          # Configuração de dependências e assets
