@@ -6,6 +6,8 @@ A plataforma integra funcionalidades como vídeos educativos, notificações imp
 
 O design intuitivo e a alternância entre temas claro e escuro tornam o app uma solução prática e eficiente para empresas que valorizam o bem-estar de seus colaboradores.
 
+<br>
+
 ---
 
 ## 📲 Funcionalidades Principais
@@ -23,6 +25,8 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 - 🔒 **Tela de Login**:
   - Acesso seguro com CPF e senha.
 
+<br>
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -37,6 +41,8 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
   - `flutter_pdfview`: Visualização de PDFs no app.
   - `image_picker`: Upload de imagens, como foto de perfil.
   - `path_provider`: Acesso a diretórios temporários para armazenamento.
+
+<br>
 
 ---
 
@@ -81,6 +87,8 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 ### 10. Tela de Visualização de Vídeos
 - Player integrado com suporte a vídeos do YouTube.
 
+<br>
+
 ---
 
 ## 🖥️ Como Rodar o Projeto
@@ -88,7 +96,7 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/PerolaCaraciolo/residencia-health-hub.git
-### Pré-requisitos para executar localmente
+### 🛠️💻 Pré-requisitos para executar localmente
 2. **Flutter SDK**: Certifique-se de ter o Flutter instalado na máquina.
 
 3. **Acesse o diretório**:
@@ -100,30 +108,34 @@ O design intuitivo e a alternância entre temas claro e escuro tornam o app uma 
 5. **Execute o projeto**:
    ```bash
    flutter run
-### Rodando no FlutLab
+### 🛠️☁️ Rodando no FlutLab
 
 2. Faça upload do projeto no [FlutLab](https://flutlab.io/).
 3. Clique em "Run Project" para executar o app diretamente no ambiente online.
+
+<br>
 
 ---
 
 ## 💡 Melhorias Futuras
 
-- **Banco de Dados**:
+- **💾 Banco de Dados**:
   - Integrar uma solução como Firebase Firestore para armazenar informações persistentes.
-- **Notificações Push**:
-  - Adicionar notificações para alertar sobre novos conteúdos e eventos.
-- **Colaboração Mútua**:
+- **🤝 Colaboração Mútua**:
   - Suporte a envio de vídeos diretamente pelos usuários.
-- **Aprimoramento de UX**:
-  - Otimização para maior responsividade em dispositivos com diferentes tamanhos de tela.
+- **📢 Notificações Push**:
+  - Adicionar notificações para alertar sobre novos conteúdos e eventos.
+
+<br>
 
 ---
 
-## 🙌 Créditos
+## 🌟 Créditos
 
 Desenvolvido por **Pérola Iuly** como parte de um projeto acadêmico para **Faculdade Senac**.  
 Agradecimentos especiais ao instrutor e colaborador Accenture **Júlio Cesar** pela orientação e feedback.
+
+<br>
 
 ---
 
@@ -132,9 +144,12 @@ Agradecimentos especiais ao instrutor e colaborador Accenture **Júlio Cesar** p
 - Este projeto utiliza imagens e documentos armazenados na pasta `assets/images/`.
 - Os dados apresentados no app (vídeos, registros, cursos) são mockados e podem ser integrados a uma base de dados no futuro.
 
----
+<br>
+
 
 > Documentação criada com ❤️ para garantir clareza e organização no desenvolvimento do projeto.
+
+<br>
 
 ---
 
