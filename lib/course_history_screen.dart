@@ -1,3 +1,7 @@
+// ===============================================
+//           TELA DE HISTÓRICO DE CURSOS
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class CourseHistoryScreen extends StatelessWidget {

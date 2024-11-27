@@ -1,3 +1,7 @@
+// ===============================================
+//               TELA DETALHES CURSOS
+// ===============================================
+
 import 'package:flutter/material.dart';
 import 'video_player_screen.dart'; // Certifique-se de importar o video_player_screen.dart
 

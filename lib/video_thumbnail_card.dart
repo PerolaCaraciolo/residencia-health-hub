@@ -1,3 +1,7 @@
+// ===============================================
+//              FORMATAÇÃO CARD VÍDEOS
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class VideoThumbnailCard extends StatelessWidget {
@@ -17,6 +21,7 @@ class VideoThumbnailCard extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: 160,
+        height: 160,
         margin: EdgeInsets.only(right: 16),
         decoration: BoxDecoration(
           color: Colors.grey[200],

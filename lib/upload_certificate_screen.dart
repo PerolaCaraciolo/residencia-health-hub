@@ -1,9 +1,14 @@
+// ===============================================
+//              TELA DE ENVIAR ATESTADO
+// ===============================================
+
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 
 class UploadCertificateScreen extends StatefulWidget {
   @override
-  _UploadCertificateScreenState createState() => _UploadCertificateScreenState();
+  _UploadCertificateScreenState createState() =>
+      _UploadCertificateScreenState();
 }
 
 class _UploadCertificateScreenState extends State<UploadCertificateScreen> {

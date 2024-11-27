@@ -1,3 +1,7 @@
+// ===============================================
+//           TELA DE ESQUECI MINHA SENHA
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {

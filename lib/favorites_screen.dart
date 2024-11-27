@@ -1,3 +1,7 @@
+// ===============================================
+//               TELA DE FAVORITOS
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class FavoritesScreen extends StatelessWidget {

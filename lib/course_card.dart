@@ -1,3 +1,7 @@
+// ===============================================
+//             FORMATAÇÃO CARD CURSOS
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class CourseCard extends StatelessWidget {
@@ -17,7 +21,7 @@ class CourseCard extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: 160, // Mesma largura que os outros cards
-        height: 180, // Mesma altura que os outros cards
+        height: 160, // Mesma altura que os outros cards
         margin: EdgeInsets.only(right: 16),
         decoration: BoxDecoration(
           color: Colors.grey[200],

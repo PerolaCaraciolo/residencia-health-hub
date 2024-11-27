@@ -1,3 +1,7 @@
+// ===============================================
+//                TELA INICIAL
+// ===============================================
+
 import 'package:flutter/material.dart';
 import 'upload_certificate_screen.dart';
 import 'absence_request_screen.dart';
@@ -27,11 +31,11 @@ class HomeScreen extends StatelessWidget {
             );
           },
         ),
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Logo Empresa', style: TextStyle(fontSize: 18)),
-          ],
+        title: Image.asset(
+          'assets/images/accenture-logo.png',
+          width: 90,
+          height: 90,
+          fit: BoxFit.contain,
         ),
         centerTitle: true,
         actions: [
@@ -52,7 +56,7 @@ class HomeScreen extends StatelessWidget {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Color(0xff0f2f50),
               ),
               child: Text(
                 'Olá, Nome Funcionário',
@@ -133,21 +137,22 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     AnnouncementCard(
                       title: 'Mensagem da Diretoria',
-                      videoId: 'VIDEO_ID_1', // ID do vídeo do YouTube
+                      videoId: 'pEFkBfEeb5k', // ID do vídeo do YouTube
                     ),
                     AnnouncementCard(
                       title: 'Nova Política de Saúde',
                       imageUrl:
-                          'https://via.placeholder.com/150', // Miniatura para um documento url
+                          'https://newsroom.accenturebr.com/br/news/2022/media_1318020fb4a018a2b313f9361625154f0343996bf.png?width=750&format=png&optimize=medium', // Miniatura para um documento url
                     ),
                     AnnouncementCard(
                       title: 'Política de Privacidade',
-                      pdfUrl: 'https://example.com/politica.pdf', // URL do PDF
+                      pdfUrl:
+                          'https://www.accenture.com/content/dam/accenture/final/a-com-migration/pdf/pdf-146/Accenture-Formulario-De-Consentimento-E-Declaracao-De-Privacidade.pdf', // URL do PDF
                     ),
                     AnnouncementCard(
                       title: 'Novo Logo da Empresa',
                       imageUrl:
-                          'https://via.placeholder.com/150', // URL da imagem
+                          'https://media.licdn.com/dms/image/v2/D4D0BAQGnTzpspJeSJQ/company-logo_200_200/company-logo_200_200/0/1685549725415/accenturedigitalproductsdev_logo?e=2147483647&v=beta&t=RLZEXrbG8MF1MgXR_03KqcRKgfLgwYW1941oGgBH0eI', // URL da imagem
                     ),
                     // Adicione mais AnnouncementCards conforme necessário
                   ],
@@ -173,15 +178,15 @@ class HomeScreen extends StatelessWidget {
                               videos: [
                                 {
                                   'title': 'Introdução à Cibersegurança',
-                                  'videoId': 'VIDEO_ID_1'
+                                  'videoId': 'Y0beKLRf-fI'
                                 },
                                 {
                                   'title': 'Ameaças e Vulnerabilidades',
-                                  'videoId': 'VIDEO_ID_2'
+                                  'videoId': 'yMaPEZVAuqk'
                                 },
                                 {
                                   'title': 'Melhores Práticas de Segurança',
-                                  'videoId': 'VIDEO_ID_3'
+                                  'videoId': 'PxcQu1wA2mY'
                                 },
                               ],
                             ),
@@ -201,7 +206,7 @@ class HomeScreen extends StatelessWidget {
                 child: Row(
                   children: [
                     VideoThumbnailCard(
-                      videoId: 'VIDEO_ID_1',
+                      videoId: 'xfF6WV_cDgU',
                       title: 'Exercícios de Alongamento',
                       onTap: () {
                         Navigator.push(
@@ -214,8 +219,8 @@ class HomeScreen extends StatelessWidget {
                       },
                     ),
                     VideoThumbnailCard(
-                      videoId: 'VIDEO_ID_2',
-                      title: 'Meditação Guiada para Relaxamento',
+                      videoId: '_N7w60QE5rw',
+                      title: 'Laboral Corpo Todo',
                       onTap: () {
                         Navigator.push(
                           context,
@@ -237,9 +242,33 @@ class HomeScreen extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    VideoCard(title: 'Meditação 1'),
-                    VideoCard(title: 'Meditação 2'),
-                    VideoCard(title: 'Meditação 3'),
+                    VideoThumbnailCard(
+                      videoId: 'sJjyX9W-E-Y',
+                      title: 'Meditação para Ansiedade',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                VideoPlayerScreen(videoId: 'VIDEO_ID_1'),
+                          ),
+                        );
+                      },
+                    ),
+                    VideoThumbnailCard(
+                      videoId: 'UhOH4TFqxpo',
+                      title: 'Meditação Guiada para Relaxamento',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) =>
+                                VideoPlayerScreen(videoId: 'VIDEO_ID_2'),
+                          ),
+                        );
+                      },
+                    ),
+                    // Adicione mais VideoThumbnailCards conforme necessário
                   ],
                 ),
               ),

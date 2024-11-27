@@ -1,3 +1,7 @@
+// ===============================================
+//          TELA PARA VISUALIZAR IMAGENS
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class ImageViewerScreen extends StatelessWidget {

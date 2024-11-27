@@ -1,3 +1,7 @@
+// ===============================================
+//           TELA CONFIGURAÇÕES DE CONTA
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class AccountSettingsScreen extends StatefulWidget {

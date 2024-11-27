@@ -1,3 +1,7 @@
+// ===============================================
+//              TELA INFORMAR AUSÊNCIA
+// ===============================================
+
 import 'package:flutter/material.dart';
 
 class AbsenceRequestScreen extends StatefulWidget {

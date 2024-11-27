@@ -1,3 +1,7 @@
+// ===============================================
+//             FORMATAÇÃO CARD ARQUIVOS
+// ===============================================
+
 import 'package:flutter/material.dart';
 import 'pdf_viewer_screen.dart';
 import 'image_viewer_screen.dart';
@@ -48,6 +52,7 @@ class AnnouncementCard extends StatelessWidget {
       },
       child: Container(
         width: 160,
+        height: 160,
         margin: EdgeInsets.only(right: 16),
         decoration: BoxDecoration(
           color: Colors.grey[200],

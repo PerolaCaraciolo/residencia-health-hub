@@ -1,3 +1,7 @@
+// ===============================================
+//                TELA DE LOGIN
+// ===============================================
+
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'forgot_password_screen.dart';
@@ -18,9 +22,32 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              'HealthHub',
-              style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+            RichText(
+              text: TextSpan(
+                children: [
+                  TextSpan(
+                    text: 'Health',
+                    style: TextStyle(
+                      fontFamily:
+                          'Roboto', // Certifique-se de usar a fonte correta
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color:
+                          Color(0xff0f2f50), // Azul escuro da palavra "Health"
+                    ),
+                  ),
+                  TextSpan(
+                    text: 'Hub',
+                    style: TextStyle(
+                      fontFamily: 'Roboto',
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                      color:
+                          Color(0xff2fd0b6), // Azul "tiffany" da palavra "hub"
+                    ),
+                  ),
+                ],
+              ),
             ),
             SizedBox(height: 40),
             TextField(
@@ -84,10 +111,19 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               child: Text('LOGIN'),
             ),
-            SizedBox(height: 40),
-            Text(
-              'Logo HADT',
-              style: TextStyle(fontSize: 18, color: Colors.grey),
+            SizedBox(height: 80),
+            Opacity(
+              opacity: 0.9, // Valor entre 0.0 e 1.0
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(
+                    20), // Ajuste o valor para bordas mais arredondadas
+                child: Image.asset(
+                  'assets/images/logo.png',
+                  width: 110,
+                  height: 110,
+                  fit: BoxFit.contain,
+                ),
+              ),
             ),
           ],
         ),
